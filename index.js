@@ -13,7 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export default function ({ out = 'build', assets = 'assets', serverFile = `${__dirname}/files/server.js` } = {}) {
   /** @type {import('@sveltejs/kit').Adapter} */
   const adapter = {
-    name: '@mankins/svelte-adapter-express',
+    name: '@robhicks/svelte-adapter-gun',
 
     async adapt({ utils }) {
       utils.log.minor(`Copying assets to ${assets}`);
