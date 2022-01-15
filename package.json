@@ -1,0 +1,42 @@
+{
+  "deprecated": false,
+  "description": "Adapter for Svelte apps that builds a Gun server.",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "files": [
+    "files"
+  ],
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "sveltekit-adapter",
+    "ssr",
+    "adapter",
+    "express"
+  ],
+  "main": "index.js",
+  "name": "@robhicks/svelte-adapter-gun",
+  "scripts": {
+    "npm": "np"
+  },
+  "type": "module",
+  "version": "0.0.1",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.2",
+    "gun": "^0.2020.1235"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robhicks/svelte-adapter-gun.git"
+  },
+  "author": "Rob Hicks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robhicks/svelte-adapter-gun/issues"
+  },
+  "homepage": "https://github.com/robhicks/svelte-adapter-gun#readme"
+}
