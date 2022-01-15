@@ -1,0 +1,14 @@
+import 'fs';
+import 'path';
+export { h as handler } from './handler-bb8e6ad4.js';
+import 'url';
+import 'APP';
+import 'MANIFEST';
+import 'querystring';
+import 'node:http';
+import 'node:https';
+import 'node:zlib';
+import 'node:stream';
+import 'node:util';
+import 'node:url';
+import 'net';
