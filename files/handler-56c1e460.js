@@ -5549,7 +5549,7 @@ class Body {
 			return formData;
 		}
 
-		const {toFormData} = await import('./multipart-parser-cba3c7b5.js');
+		const {toFormData} = await import('./multipart-parser-c33e33a8.js');
 		return toFormData(this.body, ct);
 	}
 
@@ -7299,4 +7299,4 @@ const handler = sequence(
 	].filter(Boolean)
 );
 
-export { FormData as F, File as a, handler as h, parse as p };
+export { FormData as F, File as a, handler as h };

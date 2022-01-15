@@ -1,6 +1,6 @@
 import 'fs';
 import 'path';
-export { h as handler } from './handler-bb8e6ad4.js';
+export { h as handler } from './handler-56c1e460.js';
 import 'url';
 import 'APP';
 import 'MANIFEST';
